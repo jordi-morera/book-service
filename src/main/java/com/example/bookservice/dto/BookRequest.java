@@ -6,7 +6,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;
 
 /**
- * DTO de entrada. Record de Java 21: inmutable, sin logica, solo transporte de datos validados.
+ * DTO de entrada. Record de Java 25: inmutable, sin logica, solo transporte de datos validados.
  * El patron ISBN acepta formato ISBN-10 o ISBN-13 con guiones opcionales.
  */
 public record BookRequest(

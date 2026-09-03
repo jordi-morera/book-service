@@ -6,8 +6,8 @@ por agentes de IA (seguridad, calidad, arquitectura).
 
 ## Stack
 
-- Java 21 (Records, Text Blocks, Pattern Matching donde aplica)
-- Spring Boot 3.4 (Web, Data JPA, Security 6, Validation, Actuator)
+- Java 25 (Records, Text Blocks, Pattern Matching donde aplica)
+- Spring Boot 3.5 (Web, Data JPA, Security 6, Validation, Actuator)
 - H2 en memoria
 - springdoc-openapi (Swagger UI)
 - Maven
@@ -23,7 +23,7 @@ SecurityConfig (SecurityFilterChain) para autenticacion/autorizacion
 
 ## Como levantar el proyecto
 
-Requisitos: JDK 21 y Maven (o usa el wrapper `./mvnw` si lo generas con `mvn -N wrapper:wrapper`).
+Requisitos: JDK 25 y Maven (o usa el wrapper `./mvnw` si lo generas con `mvn -N wrapper:wrapper`).
 
 ```bash
 mvn spring-boot:run

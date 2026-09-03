@@ -18,7 +18,7 @@ public class OpenApiConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("Book Service API")
-                        .description("Microservicio base Spring Boot 3 / Java 21")
+                        .description("Microservicio base Spring Boot 3 / Java 25")
                         .version("v1"))
                 .addSecurityItem(new SecurityRequirement().addList(BASIC_AUTH_SCHEME))
                 .components(new Components()
