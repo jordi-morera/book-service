@@ -1,6 +1,6 @@
 # Book Service
 
-Microservicio base construido con **Java 21** y **Spring Boot 3.4**, pensado como
+Microservicio base construido con **Java 25** y **Spring Boot 3.5**, pensado como
 punto de partida limpio y con buenas practicas para ser auditado posteriormente
 por agentes de IA (seguridad, calidad, arquitectura).
 
