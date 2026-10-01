@@ -1,0 +1,11 @@
+# Perfil de despliegue (Render). Se activa con SPRING_PROFILES_ACTIVE=prod
+server:
+  port: ${PORT:8080}
+  # Render sirve por HTTPS detras de un proxy: sin esto Swagger genera URLs http:// y "Try it out" falla
+  forward-headers-strategy: framework
+
+spring:
+  h2:
+    console:
+      # La consola H2 nunca debe quedar expuesta en internet
+      enabled: false
